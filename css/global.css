@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 .header #preloader {
-    padding-top: 20%;
+    padding-top: 25%;
     text-align: center;
     background-color: rgba(0, 0, 0);
     width: 100vw;

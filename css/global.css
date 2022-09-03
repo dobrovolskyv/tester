@@ -37,10 +37,10 @@ html {
 
 @media (max-width: 768px){
     .header #preloader {
-        padding-top: 50%;
+        padding-top: 40%;
     }
     .preloader__img {
-        width: 50%;
+        width: 10%;
     }
 }
 
@@ -54,13 +54,16 @@ html {
 
 @media (max-width: 480px) {
     .header #preloader {
-        padding-top: 50%;
+        padding-top: 60%;
     }
     .preloader__img {
         width: 10%;
     }
 }
 @media(max-width: 380px){
+    .header #preloader {
+        padding-top: 70%;
+    }
 
 }
 @media (max-width: 320px){}

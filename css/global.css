@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 .header #preloader {
-    padding-top: 25%;
+    padding-top: 20%;
     text-align: center;
     background-color: rgba(0, 0, 0);
     width: 100vw;
@@ -35,3 +35,26 @@ html {
         opacity: 0;
     }
 }
+
+@media (max-width: 768px){
+    .header #preloader {
+        padding-top: 50%;
+        text-align: center;
+        background-color: rgba(0, 0, 0);
+        width: 100vw;
+        height: 100vh;
+    
+    }
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 480px) {
+
+}
+@media(max-width: 380px){
+
+}
+@media (max-width: 320px){}

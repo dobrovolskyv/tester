@@ -14,9 +14,8 @@ html {
     width: 100vw;
     height: 100vh;
 } */
-.preloader__text {
-    font-size: 36px;
-    color: white;
+.preloader__img {
+    width: 3%;
 }
 
 #preloader.hide-preloader {
@@ -39,20 +38,27 @@ html {
 @media (max-width: 768px){
     .header #preloader {
         padding-top: 50%;
-        text-align: center;
-        background-color: rgba(0, 0, 0);
-        width: 100vw;
-        height: 100vh;
-    
+    }
+    .preloader__img {
+        width: 50%;
     }
 }
 
+
 @media (max-width: 576px){
+    .preloader__img {
+        width: 10%;
+    }
 
 }
 
 @media (max-width: 480px) {
-
+    .header #preloader {
+        padding-top: 50%;
+    }
+    .preloader__img {
+        width: 10%;
+    }
 }
 @media(max-width: 380px){
 
